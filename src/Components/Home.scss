@@ -1,0 +1,36 @@
+.banner{
+    // background-color: black;
+    // background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEBKek97NXZcsPrsI2vumBAItj33FvXBu_3w&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+    height: 400px;
+    width: 100%;
+}
+
+.row{
+   background-color: black;
+   padding: 1rem;
+
+    >div{
+        display: flex;
+        overflow-x: auto;
+    }
+    >h2{
+        margin: 0.3rem;
+        color:white;
+        font-weight: 200;
+    }
+
+}
+
+.card{
+    width: 200px;
+    margin: 0.3rem;
+    cursor: pointer;
+   transform: 0.5s;
+   
+   &:hover{
+        transform: translateY(-10px) scale(1.05);
+    }
+}
